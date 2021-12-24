@@ -3,4 +3,9 @@ Currently, course #254 within Udemy "The Complete 2022 Web Development Bootcamp"
 - Within the command prompt/hyper, change directories (cd) into the folder containing the chapter1.txt file (cd "C:\Users\ssikh\OneDrive\Documents\Udemy\The Complete 2022 Web Development Bootcamp\Web Development\Story")
 - If you want to create the file using the command line, use 'touch chapter1.txt'
 - Create a git local repository to track the changes. Need to initialize git by using 'git init'
-- In order to track changes, the file needs to be added to a staging area.  Use 'git status' to check on the file status and then use 'git add chapter1.txt' to add the file.
+- In order to track changes, the file needs to be added to a staging area.  Use 'git status' to check on the file status and then use 'git add chapter1.txt' to add the file.  Confirm by check on the status again.  It should be green.
+- Authentication is necessary, so you will need to provide your github email address and username
+     - 'git config user.name "ssikham1"' to use your github username
+     - 'git config user.email "ssikhanm@yahoo.com"' to use your github email
+- To commit the file, 'git commit -m "Complete Chapter 1"'
+- To check what have been commited, use 'git log'
