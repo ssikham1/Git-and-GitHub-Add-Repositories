@@ -2,5 +2,10 @@ chapter2.txt
 
 Continuation of chapter1.txt.  Both chapter2.txt and chapter3.txt were created after committing chapter1.txt.
 
-- In order to track changes, the file needs to be added to a staging area.  Use 'git status' to check on the file status and then use 'git add chapter2.txt' to add the file.  Confirm by check on the status again.  It should be green.
+- In order to track changes, the file needs to be added to a staging area.  Use 'git status' to check on the file status and then use 'git add chapter2.txt chapter3.txt' to add the file.  Confirm by check on the status again.  It should be green.
      - Alternatively, use 'git add .' to add all files within the folder
+- Commit the files, 'git commit -m "Complete Chapter 2 and 3"'
+     - No need to sign in again if signed in earlier
+- Re-update chapter3.txt and put gibberish inside the file as if the file was corrupted.
+- Use 'git diff chapter 3.txt' to see the difference that has not been committed or in our staging area.  Will show the current version vs last save point.
+- Use 'git checkout chapter3.txt' to rollback to the last version that was committed in our local repository.  Reopen chapter3.txt to see the rollback.
