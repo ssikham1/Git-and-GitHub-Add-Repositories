@@ -1,4 +1,4 @@
-Currently, course #254 within Udemy "The Complete 2022 Web Development Bootcamp" training.  This course introduces students to the version control using Git within the command line.  Git is ONLY for local implementation.  GitHub is for global implentation.  These instructions will only be for Git.
+Currently, course #254 within Udemy "The Complete 2022 Web Development Bootcamp" training.  This course introduces students to the version control using Git within the command line.  Git is ONLY for local implementation.  GitHub is for remote implentation.  These instructions will only be for Git.
 
 - Within the command prompt/hyper, change directories (cd) into the folder containing the chapter1.txt file (cd "C:\Users\ssikh\OneDrive\Documents\Udemy\The Complete 2022 Web Development Bootcamp\Web Development\Story")
 - If you want to create the file using the command line, use 'touch chapter1.txt'
